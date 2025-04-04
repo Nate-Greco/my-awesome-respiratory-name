@@ -1,6 +1,8 @@
 document.getElementsByClassName("switchy")[0].onclick = () => {
   if (!document.getElementsByClassName("switchy")[0].checked) {
     var rules = document.styleSheets[0].rules
+    console.log(rules)
+    console.log(document.styleSheets[0])
     for (var i = 0; i < rules.length; i++) {
       if (rules[i].selectorText == "p") {
         rules[i].style.color = "purple"
