@@ -1,5 +1,5 @@
-document.getElementsByTagName("input")[0].onclick = () => {
-  if (!document.getElementsByTagName("input")[0].checked) {
+document.getElementsByClassName('"switchy"')[0].onclick = () => {
+  if (!document.getElementsByClassName('"switchy"')[0].checked) {
     var rules = document.styleSheets[0].rules
     console.log(rules)
     console.log(document.styleSheets[0])
