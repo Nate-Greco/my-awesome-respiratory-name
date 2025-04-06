@@ -1,10 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-  try {
     document.getElementById("switchy").onclick = () => {
       if (!document.getElementById("switchy").checked) {
         var rules = document.styleSheets[0].rules
-        console.log(rules)
-        console.log(document.styleSheets[0])
         for (var i = 0; i < rules.length; i++) {
           if (rules[i].selectorText == "p") {
             rules[i].style.color = "purple"
@@ -27,8 +24,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     }
-  } catch (error) {
-    console.log("BAD")
-    console.log(error)
-  }
 }, false);
