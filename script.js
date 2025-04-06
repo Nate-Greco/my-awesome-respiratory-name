@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     }
-    break
   } catch (error) {
     console.log("BAD")
     console.log(error)
