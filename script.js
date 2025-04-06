@@ -1,4 +1,4 @@
-while (true) {
+document.addEventListener('DOMContentLoaded', function() {
   try {
     document.getElementById("switchy").onclick = () => {
       if (!document.getElementById("switchy").checked) {
@@ -32,4 +32,4 @@ while (true) {
     console.log("BAD")
     console.log(error)
   }
-}
+}, false);
