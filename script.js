@@ -1,4 +1,4 @@
-document.getElementById("switchy").onclick = () => {
+document.getElemenstByClassName("switch")[0].onclick = () => {
   if (!document.getElementById("switchy").checked) {
     var rules = document.styleSheets[0].rules
     console.log(rules)
