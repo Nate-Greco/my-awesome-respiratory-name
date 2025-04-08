@@ -3,7 +3,7 @@ html {
   width: 100%;
 }
 h1 {
-  color: black;
+  color: purple;
   font-family: 'Comic Sans MS';
   font-size: 50px;
   font-weight: bold;
@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-  
+  background-color: #f0dc00;
 }
 
 img{
@@ -23,7 +23,7 @@ img{
   margin-right: auto;
 }
 p {
-  color: black;
+  color: purple;
   font-family: 'Comic Sans MS';
   font-size: 20px;
   font-weight: bold;
