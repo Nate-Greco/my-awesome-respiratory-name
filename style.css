@@ -53,7 +53,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #fdff80;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -71,7 +71,7 @@ p {
 }
 
 input:checked + .slider {
-  background-color: purple;
+  background-color: #cc00cc;
 }
 
 input:focus + .slider {
